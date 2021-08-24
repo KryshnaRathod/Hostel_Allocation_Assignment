@@ -1,0 +1,202 @@
+.headbar{
+    display: flex;
+  
+    align-items: center;
+  }
+  .headimg{
+  margin-left: 20px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-right: 10px;
+  
+  }
+  .h1center{
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+  }
+  
+  .h6center{
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+  }
+  .card-container{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin-top: 30px;
+  }
+  .card-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:10px;
+    margin-top: 35px;
+    
+    
+  }
+  .card-girl{
+    margin-right:20px;
+    cursor: pointer;
+    width:25vw;
+    height:30vh;
+    border-style: none;
+    border-radius: 7%;
+    background: rgb(245, 163, 213);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .card-boy{
+    margin-left:20px;
+    width:25vw;
+    height:30vh;
+    border-radius: 7%;
+    cursor:pointer;
+    border-style: none;
+    background: skyblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .container-hostel{
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .hostel-grid{
+    margin-top: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+  }
+  .hostel-button{
+    cursor: pointer;
+    width:50px;
+    height:50px;
+    background: gray;
+    color: white;
+    border-radius: 15%;
+    border-style: none;
+  }
+  .container-room0{
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container-room{
+    margin-top: 10px;
+    width:250px;
+    height:250px;
+    
+    border:1.5px solid gray;
+    border-radius: 10%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .floor{
+    margin-left:0.3rem;
+    margin-right:0.3rem;
+    border-radius:2em;
+    background: lightgray;
+  }
+  .room-grid{
+    margin-top: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+  }
+  .room-button
+    {
+      cursor: pointer;
+      width:40px;
+      height:50px;
+      background: rgb(86, 173, 86);
+      color: black;
+      font-weight:900;
+      border-radius: 20%;
+      border-style: none;
+    }
+    .hide{
+      visibility: hidden;
+    }
+    .highlighted{
+      background: grey;
+    }
+    
+    
+    .book-room-button{
+     
+      background: #4eb5f1;
+  
+      margin-top: 1rem;
+      width:10rem;
+      height:2rem;
+      border-style: none;
+      border-radius: 2em;
+      margin-left:0.3rem;
+      margin-right:0.3rem;  
+      color:white;
+    }
+  
+    .mymodal {
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      width:40vw;
+      height:80vh;
+      transform: translate(-50%, -50%);
+      
+    
+      border: 1px solid #ccc;
+      background: rgba(82, 161, 235,0.8);
+      overflow: auto;
+      border-radius: 1rem;
+      outline: none;
+      border-style: none;
+      padding: 20px;
+    }
+    
+    .myoverlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: rgba(0, 0, 0, 0.1);
+    }
+    .ReactModal__Overlay {
+      opacity: 0;
+      transition: opacity 500ms ease-in-out;
+    }
+    
+    .ReactModal__Overlay--after-open {
+      opacity: 1;
+    }
+    
+    .ReactModal__Overlay--before-close {
+      opacity: 0;
+    }
+  
+    .container-modal{
+      display:flex;
+      
+      align-items: center;
+      
+    }
+    .button-close{
+     height: 0px;
+     width: 0px;
+     background: none;
+    }
